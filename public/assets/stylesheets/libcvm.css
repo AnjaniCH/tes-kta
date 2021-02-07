@@ -1,0 +1,165 @@
+/*
+Stylesheet Library
+Written by Billy
+April 12, 2014
+Updated 15/7/2014*/
+
+/*START OVERWRITTEN CSS*/
+hr{
+    margin-top:10px !important;
+    margin-bottom:10px !important;
+}
+
+.container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.container-max{
+	max-width: 1008px !important;
+}
+.container-news{
+    max-width: 800px !important;
+}
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/*END OVERWRITTEN CSS*/
+
+/*start FONT*/
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.font25{font-size:250%;}
+.font16{font-size: 160%;}
+.font15{font-size: 150%;}
+.font14{font-size: 140%;}
+.font13{font-size: 130%;}
+.font12{font-size: 120%;}
+.font11{font-size: 110%;}
+.font9{font-size:90%;}
+.font8{font-size:80%;}
+.font7{font-size:70%;}
+.font20px{font-size: 20px}
+.font18px{font-size: 18px}
+.font16px{font-size: 16px}
+.font14px{font-size: 14px}
+.font12px{font-size: 12px}
+.font10px{font-size: 10px}
+.bold { font-weight: bold;}
+
+/*end FONT*/
+
+/*START DECORATION*/
+.white{color:white;}
+.radius0{border-radius: 0 !important;}
+.black{color:#323232;}
+.gray{color:#666666;}
+.border{border: solid 1px #e7e7e7;}
+.border-white{border: solid 1px #ffffff;}
+.border-top1-black{border-top:1px solid black;}
+.border-top2-black{border-top:2px solid black;}
+.border-bottom1-black{border-bottom:1px solid black;}
+.border-bottom2-black{border-bottom:2px solid black;}
+.border-left1-gray{border-left:1px solid #cccccc;}
+.border-bottom1-gray{border-bottom:1px solid #cccccc;}
+.height-auto{
+  height: auto !important; 
+}
+/*END DECORATION*/
+
+.badge-red{background-color: red !important;font-style: italic;}
+
+/*start POSITIONING*/
+.padl0{padding-left: 0px;}
+.padr0{padding-right: 0px;}
+.pad0{padding:0px !important;}
+.pad05{padding:5px;}
+.pad1{padding:10px;}
+.pad2{padding:20px;}
+.pad3{padding:30px;}
+.pad4{padding:40px;}
+.pad5{padding:50px;}
+.pad6{padding:60px;}
+@media(max-width: 768px){
+	.xs-pad0{
+		padding: 0 !important;
+	}
+    .xs-100{
+        width: 100% !important;
+    }
+}
+
+.marg0{margin:0px !important;}
+.marg05{margin:5px;}
+.marg1{margin:10px;}
+.marg2{margin:20px;}
+.marg3{margin:30px;}
+.marg4{margin:40px;}
+.marg5{margin:50px;}
+.marg6{margin:60px;}
+
+.up03{margin:3px 0 0 0;}
+.up04{margin:4px 0 0 0;}
+.up05{margin:5px 0 0 0;}
+.up16{margin:16px 0 0 0;}
+.up15{margin:15px 0 0 0;}
+.up14{margin:14px 0 0 0;}
+.up13{margin:13px 0 0 0;}
+.up12{margin:12px 0 0 0;}
+.up1{ margin:10px 0 0 0;}
+.up2{ margin:20px 0 0 0;}
+.up3{ margin:30px 0 0 0;}
+.up4{ margin:40px 0 0 0;}
+.up5{ margin:50px 0 0 0;}
+.up6{ margin:60px 0 0 0;}
+.up7{ margin:70px 0 0 0;}
+.up8{ margin:80px 0 0 0;}
+.up100{ margin:100px 0 0 0;}
+
+.down03{margin: 0 0 3px 0;}
+.down04{margin: 0 0 4px 0;}
+.down05{margin: 0 0 5px 0;}
+.down06{margin: 0 0 6px 0;}
+.down1{margin: 0 0 10px 0;}
+.down2{margin: 0 0 20px 0;}
+.down3{margin: 0 0 30px 0;}
+.down4{margin: 0 0 40px 0;}
+.down5{margin: 0 0 50px 0;}
+.down6{margin: 0 0 60px 0;}
+/*end POSITIONING*/
+.disable-state{
+     pointer-events: none !important;
+    cursor: not-allowed !important;
+    filter: alpha(opacity=65) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    opacity: .65 !important;
+}
+
+/*Billy 7 March 2016*/
+
+.form-footer, .form-header{
+    background-color: #f5f5f5;
+}
+
+.form-title{
+    color:#000;
+}
+
+.f5-bg{
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 768px){
+    .form-label{
+        text-align: left;
+    }
+}
+
+@media (min-width: 769px){
+    .form-label{
+        text-align: right;
+    }
+}
